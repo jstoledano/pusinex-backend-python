@@ -1,0 +1,12 @@
+[
+  {
+    "STATUS": 1,
+    "NOMBRE": "HABILITADA",
+    "CONTROL": null
+  },
+  {
+    "STATUS": 2,
+    "NOMBRE": "INHABILITADA",
+    "CONTROL": null
+  }
+]

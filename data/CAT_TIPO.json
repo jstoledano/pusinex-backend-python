@@ -1,0 +1,72 @@
+[
+  {
+    "TIPO": 1,
+    "NOMBRE": "URBANO CONCENTRADO",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 2,
+    "NOMBRE": "URBANO(A)",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 3,
+    "NOMBRE": "MIXTO(A)",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 4,
+    "NOMBRE": "RURAL",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 5,
+    "NOMBRE": "RURAL DISPERSO",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 6,
+    "NOMBRE": "COMPLEJIDAD A",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 7,
+    "NOMBRE": "COMPLEJIDAD B",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 8,
+    "NOMBRE": "COMPLEJIDAD C",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 9,
+    "NOMBRE": "COMPLEJIDAD D",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 10,
+    "NOMBRE": "COMPLEJIDAD E",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 11,
+    "NOMBRE": "COMPLEJIDAD F",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 12,
+    "NOMBRE": "COMPLEJIDAD G",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 13,
+    "NOMBRE": "COMPLEJIDAD H",
+    "CONTROL": null
+  },
+  {
+    "TIPO": 14,
+    "NOMBRE": "COMPLEJIDAD I",
+    "CONTROL": null
+  }
+]

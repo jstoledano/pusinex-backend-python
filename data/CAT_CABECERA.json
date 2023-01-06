@@ -1,0 +1,22 @@
+[
+  {
+    "CABECERA": 1,
+    "NOMBRE": "CAPITAL DEL ESTADO",
+    "CONTROL": null
+  },
+  {
+    "CABECERA": 2,
+    "NOMBRE": "CABECERA DISTRITAL",
+    "CONTROL": null
+  },
+  {
+    "CABECERA": 3,
+    "NOMBRE": "CABECERA MUNICIPAL",
+    "CONTROL": null
+  },
+  {
+    "CABECERA": 4,
+    "NOMBRE": "CABECERA SECCIONAL",
+    "CONTROL": null
+  }
+]

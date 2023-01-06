@@ -1,0 +1,4356 @@
+[
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 12,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 13,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 14,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 15,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 16,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 17,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 18,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 19,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 20,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 21,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 22,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 23,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 24,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 25,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 26,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 27,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 28,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 29,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 30,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 31,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 32,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 33,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 34,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 35,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 36,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 37,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 39,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 40,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 42,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 43,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 44,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 45,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 46,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 47,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 48,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 618,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 3,
+    "SECCION": 619,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 49,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 50,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 51,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 52,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 53,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 54,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 55,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 56,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 4,
+    "SECCION": 57,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 59,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 60,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 61,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 62,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 63,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 64,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 65,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 66,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 67,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 68,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 69,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 70,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 71,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 72,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 73,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 74,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 75,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 76,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 5,
+    "SECCION": 77,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 100,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 101,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 102,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 103,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 104,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 105,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 7,
+    "SECCION": 106,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 107,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 108,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 109,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 110,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 111,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 112,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 113,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 114,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 115,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 8,
+    "SECCION": 116,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 9,
+    "SECCION": 117,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 9,
+    "SECCION": 118,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 9,
+    "SECCION": 119,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 9,
+    "SECCION": 120,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 9,
+    "SECCION": 121,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 178,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 179,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 180,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 181,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 182,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 183,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 184,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 185,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 186,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 187,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 188,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 189,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 190,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 191,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 192,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 193,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 194,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 195,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 196,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 197,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 198,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 199,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 200,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 201,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 202,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 203,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 204,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 205,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 206,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 207,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 208,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 209,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 210,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 211,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 212,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 213,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 214,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 215,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 216,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 217,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 218,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 13,
+    "SECCION": 219,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 16,
+    "SECCION": 259,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 16,
+    "SECCION": 260,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 16,
+    "SECCION": 261,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 16,
+    "SECCION": 262,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 365,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 366,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 367,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 368,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 369,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 370,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 371,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 26,
+    "SECCION": 609,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 398,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 399,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 403,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 404,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 405,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 406,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 407,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 30,
+    "SECCION": 408,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 409,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 410,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 411,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 412,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 413,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 414,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 415,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 416,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 417,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 418,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 419,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 420,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 421,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 423,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 620,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 31,
+    "SECCION": 621,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 58,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 470,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 471,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 472,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 473,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 474,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 475,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 476,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 477,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 478,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 479,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 480,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 481,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 482,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 483,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 484,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 485,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 486,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 487,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 488,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 489,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 490,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 491,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 492,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 493,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 494,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 495,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 496,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 497,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 498,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 499,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 500,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 501,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 502,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 503,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 34,
+    "SECCION": 504,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 35,
+    "SECCION": 505,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 35,
+    "SECCION": 506,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 35,
+    "SECCION": 507,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 520,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 521,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 522,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 523,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 524,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 525,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 37,
+    "SECCION": 526,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 529,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 530,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 536,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 537,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 613,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 614,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 615,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 38,
+    "SECCION": 616,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 538,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 539,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 540,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 541,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 542,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 543,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 544,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 545,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 39,
+    "SECCION": 546,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 50,
+    "SECCION": 531,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 50,
+    "SECCION": 532,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 50,
+    "SECCION": 533,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 50,
+    "SECCION": 534,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 50,
+    "SECCION": 535,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 54,
+    "SECCION": 400,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 54,
+    "SECCION": 401,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 54,
+    "SECCION": 607,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 54,
+    "SECCION": 608,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 55,
+    "SECCION": 402,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 1,
+    "MUNICIPIO": 55,
+    "SECCION": 606,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 5,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 6,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 7,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 8,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 9,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 10,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 2,
+    "SECCION": 11,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 122,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 123,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 124,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 125,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 126,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 127,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 128,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 129,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 130,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 131,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 132,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 133,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 134,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 135,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 136,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 137,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 138,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 139,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 140,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 141,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 142,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 143,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 144,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 145,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 146,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 147,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 148,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 149,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 150,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 156,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 10,
+    "SECCION": 157,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 17,
+    "SECCION": 263,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 17,
+    "SECCION": 264,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 17,
+    "SECCION": 265,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 17,
+    "SECCION": 266,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 267,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 268,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 269,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 270,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 271,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 272,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 273,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 274,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 275,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 276,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 277,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 278,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 279,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 280,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 281,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 282,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 18,
+    "SECCION": 283,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 22,
+    "SECCION": 309,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 22,
+    "SECCION": 310,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 22,
+    "SECCION": 311,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 22,
+    "SECCION": 312,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 348,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 349,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 350,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 351,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 352,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 353,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 354,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 355,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 356,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 357,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 358,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 359,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 360,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 361,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 363,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 364,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 622,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 25,
+    "SECCION": 623,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 372,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 373,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 374,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 375,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 376,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 27,
+    "SECCION": 377,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 378,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 379,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 381,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 382,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 383,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 384,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 385,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 386,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 624,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 28,
+    "SECCION": 625,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 387,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 388,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 389,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 390,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 393,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 394,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 29,
+    "SECCION": 397,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 435,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 436,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 437,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 438,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 439,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 440,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 441,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 442,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 443,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 444,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 445,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 446,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 447,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 448,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 449,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 450,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 451,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 452,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 454,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 455,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 456,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 457,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 459,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 460,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 461,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 462,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 463,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 464,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 465,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 466,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 467,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 468,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 469,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 626,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 627,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 628,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 629,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 630,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 33,
+    "SECCION": 631,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 36,
+    "SECCION": 611,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 558,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 559,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 560,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 561,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 562,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 563,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 564,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 565,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 566,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 567,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 568,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 41,
+    "SECCION": 569,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 46,
+    "SECCION": 315,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 49,
+    "SECCION": 391,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 49,
+    "SECCION": 392,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 51,
+    "SECCION": 158,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 51,
+    "SECCION": 159,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 51,
+    "SECCION": 160,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 52,
+    "SECCION": 151,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 52,
+    "SECCION": 152,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 52,
+    "SECCION": 153,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 52,
+    "SECCION": 154,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 2,
+    "MUNICIPIO": 52,
+    "SECCION": 155,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 1,
+    "SECCION": 1,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 1,
+    "SECCION": 2,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 1,
+    "SECCION": 3,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 1,
+    "SECCION": 4,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 3,
+    "SECCION": 38,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 78,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 79,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 80,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 81,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 82,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 83,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 84,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 85,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 86,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 87,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 88,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 89,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 90,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 91,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 92,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 93,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 94,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 95,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 96,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 97,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 6,
+    "SECCION": 98,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 11,
+    "SECCION": 161,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 11,
+    "SECCION": 162,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 11,
+    "SECCION": 163,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 11,
+    "SECCION": 164,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 165,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 167,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 168,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 169,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 170,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 171,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 172,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 173,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 174,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 175,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 176,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 177,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 12,
+    "SECCION": 610,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 220,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 221,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 222,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 223,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 224,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 225,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 226,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 227,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 228,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 229,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 230,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 14,
+    "SECCION": 231,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 232,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 233,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 234,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 235,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 236,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 237,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 238,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 239,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 240,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 241,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 242,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 243,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 244,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 245,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 246,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 247,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 248,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 249,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 250,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 251,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 252,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 253,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 256,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 257,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 15,
+    "SECCION": 258,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 284,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 285,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 286,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 287,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 289,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 290,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 291,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 632,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 19,
+    "SECCION": 633,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 20,
+    "SECCION": 292,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 20,
+    "SECCION": 293,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 20,
+    "SECCION": 294,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 20,
+    "SECCION": 297,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 20,
+    "SECCION": 298,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 299,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 300,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 301,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 302,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 303,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 304,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 305,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 306,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 307,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 21,
+    "SECCION": 308,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 318,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 319,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 320,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 321,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 322,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 323,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 324,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 325,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 326,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 327,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 328,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 329,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 330,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 23,
+    "SECCION": 331,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 332,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 333,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 334,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 335,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 336,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 337,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 338,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 339,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 340,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 341,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 342,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 343,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 344,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 345,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 346,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 24,
+    "SECCION": 347,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 424,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 425,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 426,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 427,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 428,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 431,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 32,
+    "SECCION": 434,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 33,
+    "SECCION": 612,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 508,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 509,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 510,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 511,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 512,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 513,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 514,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 515,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 516,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 517,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 518,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 36,
+    "SECCION": 519,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 547,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 548,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 549,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 550,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 553,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 554,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 555,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 556,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 40,
+    "SECCION": 557,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 42,
+    "SECCION": 570,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 42,
+    "SECCION": 571,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 42,
+    "SECCION": 572,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 42,
+    "SECCION": 573,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 42,
+    "SECCION": 574,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 575,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 576,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 577,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 578,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 579,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 580,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 581,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 582,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 583,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 584,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 585,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 43,
+    "SECCION": 617,
+    "TIPO": 4
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 588,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 589,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 590,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 591,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 592,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 593,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 594,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 595,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 596,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 597,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 598,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 599,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 600,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 44,
+    "SECCION": 601,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 45,
+    "SECCION": 316,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 45,
+    "SECCION": 317,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 46,
+    "SECCION": 313,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 46,
+    "SECCION": 314,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 47,
+    "SECCION": 395,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 47,
+    "SECCION": 396,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 48,
+    "SECCION": 602,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 48,
+    "SECCION": 603,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 48,
+    "SECCION": 604,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 48,
+    "SECCION": 605,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 53,
+    "SECCION": 429,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 53,
+    "SECCION": 430,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 56,
+    "SECCION": 432,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 56,
+    "SECCION": 433,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 57,
+    "SECCION": 551,
+    "TIPO": 3
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 57,
+    "SECCION": 552,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 58,
+    "SECCION": 254,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 58,
+    "SECCION": 255,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 59,
+    "SECCION": 586,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 59,
+    "SECCION": 587,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 60,
+    "SECCION": 295,
+    "TIPO": 2
+  },
+  {
+    "ENTIDAD": 29,
+    "DISTRITO": 3,
+    "MUNICIPIO": 60,
+    "SECCION": 296,
+    "TIPO": 2
+  }
+]
