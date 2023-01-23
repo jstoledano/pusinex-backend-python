@@ -1,8 +1,17 @@
 from pathlib import Path
+import environ
+import os
+
+env = environ.Env(
+    DEBUG=(bool, False)
+)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = 'django-insecure-*1r$97@1jp2(c4*1+q$$9jq)0brlb6q%%692h66_**ltmqmv!^'
-DEBUG = True
+environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+
+DEBUG = env('DEBUG')
+SECRET_KEY = env('SECRET_KEY')
+
 
 ALLOWED_HOSTS = []
 INSTALLED_APPS = [
@@ -12,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
     'rest_framework',
     'control.apps.ControlConfig',
 ]
@@ -51,7 +61,8 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default': env.db(),
+    'extra': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
@@ -80,9 +91,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-mx'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Mexico/General'
 
 USE_I18N = True
 
@@ -91,6 +102,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    ]
 
 STATIC_URL = 'static/'
 
@@ -98,3 +112,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}
+
+import _locale
+_locale._getdefaultlocale = (lambda *args: ['es_MX', 'utf8'])
