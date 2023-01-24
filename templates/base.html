@@ -1,4 +1,5 @@
 {% load static %}
+{% load crispy_forms_tags %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Control de PUSINEX">
   <meta name="author" content="Javier Sanchez Toledano">
-  <title>Control de PUSINEX en papel</title>
+  <title>{% block site_title %}Control de PUSINEX en papel{% endblock %}</title>
 
   <!-- Favicons -->
   <link rel="icon" href="https://ine.mx/wp-content/uploads/2017/03/favicon.png" sizes="32x32" />
@@ -77,11 +78,11 @@
 </head>
 <body>
 
-<div class="container py-3">
+<div class="container py-3 min-vh-100">
   <header>
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <img src="{% static 'img/pusinex.png' %}" alt="Icono PUSINEX" class="me-2">
+        <img src="{% static 'img/pusinex.svg' %}" width="60px" alt="Icono PUSINEX" class="me-2">
         <span class="fs-4">PUSINEX</span>
       </a>
 
@@ -101,41 +102,40 @@
   </header>
 
   <main class="container">
-    <div class="row">
-      <div class="col">
-        <div id="root"></div>
-      </div>
-    </div>
-    <div>
-      <form action="" method="post">
-        {% csrf_token %}
+    <!-- Hero -->
+    <div class="p-5 text-center">
+      <form method="get">
+        {{ filter.form | crispy }}
 
+        <input type="submit" />
       </form>
+
+      {% for obj in filter.qs %}
+        {{ obj.municipio.nombre }} - {{ obj.nombre }}<br />
+      {% endfor %}
     </div>
+    <!-- Hero -->
   </main>
+</div>
 
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="{% static 'img/ine_150x53.png' %}" alt="">
 
-      </div>
-      <div class="col-8 col-md">
-        <small class="d-block mb-3 text-muted">&copy; 2017–2022</small>
-      </div>
-    </div>
+<div class="container-fluid">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">© 2023 INE Tlaxcala</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa fa-key-modern" aria-hidden="true"></i> Administración</a></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa fa-cloud-download" aria-hidden="true"></i> Descarga</a></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fa fa-python" aria-hidden="true"></i> Acerca de</a></li>
+    </ul>
   </footer>
 </div>
 
 
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/moon"></script>
-<script src="https://unpkg.com/moon-browser"></script>
-
-<script type="text/moon">
-    const paragraph = <p>Hello Moon!</p>;
-</script>
 </html>

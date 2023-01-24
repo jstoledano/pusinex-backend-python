@@ -23,6 +23,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',
     'rest_framework',
+    'crispy_forms',
+    "crispy_bootstrap5",
     'control.apps.ControlConfig',
 ]
 
@@ -119,3 +121,6 @@ REST_FRAMEWORK = {
 
 import _locale
 _locale._getdefaultlocale = (lambda *args: ['es_MX', 'utf8'])
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
