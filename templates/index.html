@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block site_title %}Portada{% endblock %}
+
+{% block hero %}
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">PUSINEX</h1>
+    <p class="fs-5 text-muted">
+      Plano Urbano Seccional con Números Exteriores
+    </p>
+  </div>
+{% endblock hero %}
+
+{% block content %}
+<div class="p-5 text-center">
+  <form method="get">
+    {{ filter.form | crispy }}
+
+    <input type="submit" />
+  </form>
+
+  {% for obj in filter.qs %}
+    {{ obj.municipio.nombre }} - ({{ obj }}:{{ obj.localidad }}) - {{ obj.nombre }}<br />
+  {% endfor %}
+</div>
+{% endblock content %}

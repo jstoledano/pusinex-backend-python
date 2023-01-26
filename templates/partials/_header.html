@@ -1,0 +1,14 @@
+{% load static %}
+<header>
+  <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+      <img src="{% static 'img/pusinex.svg' %}" width="60px" alt="Icono PUSINEX" class="me-2">
+      <span class="fs-4">PUSINEX</span>
+    </a>
+    <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      <a class="me-3 py-2 text-dark text-decoration-none" href="{% url 'bgd' %}"><i class="fa fa-key-modern" aria-hidden="true"></i> Administración</a>
+      <a class="me-3 py-2 text-dark text-decoration-none" href="#"><i class="fa fa-cloud-download" aria-hidden="true"></i> Descarga</a>
+      <a class="py-2 text-dark text-decoration-none" href="#"><i class="fa fa-python" aria-hidden="true"></i> Acerca de</a>
+    </nav>
+  </div>
+</header>
