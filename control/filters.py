@@ -24,7 +24,13 @@ class LocalidadFilter(django_filters.FilterSet):
         self.filters['q'].label = ''
 
     def filtro_localidad(self, queryset, name, value):
-        return queryset.filter(
-            Q(nombre__icontains=value) |
-            Q(municipio__nombre__icontains=value)
-        )
+        valor = 0
+        try:
+            valor = int(value)
+        except ValueError:
+            return queryset.filter(
+                Q(nombre__icontains=value) |
+                Q(municipio__nombre__icontains=value)
+            )
+        return queryset.filter(municipio__seccion__seccion=valor)
+        

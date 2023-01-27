@@ -1,23 +1,28 @@
-from django.views.generic import TemplateView, CreateView
-from rest_framework import viewsets
 from dal import autocomplete
 from django.db.models import Q
+from django.views.generic import CreateView, TemplateView
 from django_filters.rest_framework import DjangoFilterBackend
+from django_filters.views import FilterView
+from rest_framework import viewsets
 
 from control import filters
-from control.serializers import MunicipioSerializer, SeccionSerializer, LocalidadSerializer, PusinexSerializer
-from control.models import Municipio, Seccion, Localidad, Pusinex
 from control.filters import LocalidadFilter
 from control.forms import PUSINEXForm
+from control.models import Localidad, Municipio, Pusinex, Seccion
+from control.serializers import (LocalidadSerializer, MunicipioSerializer,
+                                 PusinexSerializer, SeccionSerializer)
 
 
-
-class Index(TemplateView):
+class Index(FilterView):
     template_name = 'index.html'
+    model = Localidad
+    filterset_class = LocalidadFilter
 
     def get_context_data(self, **kwargs):
         context = super(Index, self).get_context_data(**kwargs) # get the default context data
-        context['filter'] = LocalidadFilter(self.request.GET, queryset=Localidad.objects.all())
+        context['filter'] = LocalidadFilter(
+            self.request.GET, 
+            queryset=Localidad.objects.order_by('municipio', 'localidad').select_related('municipio'))
         return context
 
 
