@@ -21,7 +21,10 @@ class LocalidadFilter(django_filters.FilterSet):
 
     def __init__(self, *args, **kwargs):
         super(LocalidadFilter, self).__init__(*args, **kwargs)
+        # self.form.initial['id_q'] = 'Hola'
         self.filters['q'].label = ''
+        if self.data == {}:
+            self.queryset = self.queryset.none()
 
     def filtro_localidad(self, queryset, name, value):
         valor = 0

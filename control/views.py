@@ -1,6 +1,7 @@
 from dal import autocomplete
 from django.db.models import Q
-from django.views.generic import CreateView, TemplateView
+from django.utils.datastructures import MultiValueDict
+from django.views.generic import CreateView, TemplateView, DetailView
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters.views import FilterView
 from rest_framework import viewsets
@@ -19,19 +20,31 @@ class Index(FilterView):
     filterset_class = LocalidadFilter
 
     def get_context_data(self, **kwargs):
-        context = super(Index, self).get_context_data(**kwargs) # get the default context data
+        context = super(Index, self).get_context_data(**kwargs)
         context['filter'] = LocalidadFilter(
-            self.request.GET, 
-            queryset=Localidad.objects.order_by('municipio', 'localidad').select_related('municipio'))
+            self.request.GET,
+            queryset=Localidad.objects.order_by('municipio', 'localidad').select_related('municipio'),
+        )
         return context
 
 
 class MunicipioAutoComplete(autocomplete.Select2QuerySetView):
     def get_queryset(self):
         qs = Municipio.objects.all()
-        if self.q:
+        if self.q > "":
             qs = qs.filter(Q(nombre__istartswith=self.q))
         return qs
+
+
+class PusinexDetail(DetailView):
+    model = Pusinex
+    context_object_name = 'pusinex'
+
+
+class LocalidadDetail(DetailView):
+    model = Localidad
+    context_object_name = 'localidad'
+
 
 class CreatePUSINEX(CreateView):
     model = Pusinex

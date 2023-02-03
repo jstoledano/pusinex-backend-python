@@ -14,15 +14,37 @@
 {% endblock hero %}
 
 {% block content %}
-<div class="p-5 text-center">
-  <form method="get">
+<div class="p-5">
+  <form method="get" class="mb-5 text-center">
     {{ filter.form | crispy }}
-
     <input type="submit" />
   </form>
 
-  {% for obj in filter.qs %}
-    {{ obj.municipio.nombre }} - ({{ obj }}:{{ obj.localidad }}) - {{ obj.nombre }}<br />
-  {% endfor %}
+{% if filter.qs %}
+  <table class="table table-bordered table-hover table-striped table-condensed">
+    <thead class="">
+      <tr>
+        <th>Municipio</th>
+        <th>Localidad</th>
+        <th>PUSINEX</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for obj in filter.qs %}
+        <tr>
+          <td>{{ obj.municipio }}</td>
+          <td>
+            <a href="{% url 'localidad' obj.id %}">
+              {{ obj.localidad|stringformat:"04d" }} {{ obj.nombre }}
+            </a>
+          </td>
+          <td>{% if obj.pusinex_set.all.count > 0 %}<i class="fa fa-check-square fa-2x text-success" aria-hidden="true"></i>{% else %}<i class="fa fa-minus-square fa-2x text-danger" aria-hidden="true"></i>{% endif %}
+            {{ obj.pusinex_set.all.count }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
 </div>
 {% endblock content %}
