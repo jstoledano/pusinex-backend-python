@@ -28,6 +28,26 @@ CAT_CABECERA = (
 )
 
 
+class Entidad(models.Model):
+    entidad = models.PositiveSmallIntegerField()
+    nombre = models.TextField()
+
+    class Meta:
+        verbose_name_plural = 'Entidades'
+
+    def __str__(self):
+        return f'{self.entidad:02} {self.nombre}'
+
+
+class Distrito(models.Model):
+    entidad = models.ForeignKey(Entidad, on_delete=models.CASCADE)
+    distrito = models.PositiveSmallIntegerField()
+    cabecera = models.TextField()
+
+    def __str__(self):
+        return f'{self.entidad.entidad:02}-{self.distrito}'
+
+
 class Municipio(models.Model):
     entidad = models.PositiveSmallIntegerField(choices=ENTIDAD)
     municipio = models.PositiveSmallIntegerField()
@@ -41,7 +61,6 @@ class Municipio(models.Model):
 
 
 class Seccion(models.Model):
-    entidad = models.PositiveSmallIntegerField(choices=ENTIDAD)
     distrito = models.PositiveSmallIntegerField(choices=DISTRITO)
     municipio = models.ForeignKey(Municipio, on_delete=models.CASCADE)
     seccion = models.PositiveSmallIntegerField()
@@ -56,8 +75,6 @@ class Seccion(models.Model):
 
 
 class Localidad(models.Model):
-    entidad = models.PositiveSmallIntegerField(default=29, choices=ENTIDAD)
-    municipio = models.ForeignKey(Municipio, on_delete=models.CASCADE)
     localidad = models.PositiveSmallIntegerField()
     nombre = models.TextField(max_length=150)
     tipo = models.PositiveSmallIntegerField(choices=CAT_TIPO)
@@ -68,16 +85,13 @@ class Localidad(models.Model):
         verbose_name_plural = 'Localidades'
 
     def __str__(self):
-        return f'{self.municipio.municipio:03} {self.localidad:04} {self.nombre}'
+        return f'{self.localidad:04} {self.nombre}'
 
 
 class Pusinex(models.Model):
     seccion = models.ForeignKey(Seccion, on_delete=models.CASCADE)
     localidad = models.ForeignKey(Localidad, on_delete=models.CASCADE)
-    f_actual = models.DateField('Fecha de Actualización')
-    hojas = models.PositiveSmallIntegerField()
-    observaciones = models.TextField()
-    archivo = models.FileField(upload_to='media')
+    activo = models.BooleanField(default=True)
 
     class Meta:
         verbose_name = 'PUSINEX'
@@ -85,4 +99,12 @@ class Pusinex(models.Model):
         get_latest_by = 'f_actual'
 
     def __str__(self):
-        return f'{self.seccion.distrito:02} {self.seccion.seccion:04} {self.localidad.localidad:04} {self.localidad.nombre} ({self.f_actual})'
+        return f'{self.seccion.seccion:04} {self.localidad.localidad:04} {self.localidad.nombre} ({self.f_actual})'
+
+
+class Revision(models.Model):
+    pusinex = models.ForeignKey(Pusinex, on_delete=models.CASCADE)
+    f_act = models.DateField()
+    hojas = models.PositiveSmallIntegerField()
+    observaciones = models.TextField()
+    archivo = models.FileField()

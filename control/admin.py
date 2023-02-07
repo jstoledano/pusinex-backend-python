@@ -14,8 +14,7 @@ class SeccionAdmin(admin.ModelAdmin):
 
 
 class LocalidadAdmin(admin.ModelAdmin):
-    ordering = ['municipio', 'localidad']
-    list_filter = ['municipio']
+    ordering = ['localidad']
     inlines = [PusinexInline]
 
 
