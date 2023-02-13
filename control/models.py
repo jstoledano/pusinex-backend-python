@@ -1,17 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
-ENTIDAD = (
-    (29, 'TLAXCALA'),
-)
-
-DISTRITO = (
-    (1, 'APIZACO'),
-    (2, 'TLAXCALA DE XICOHTENCATL'),
-    (3, 'ZACATELCO')
-)
-
 CAT_TIPO = (
     (1, 'URBANO CONCENTRADO'),
     (2, 'URBANO(A)'),
@@ -45,23 +33,27 @@ class Distrito(models.Model):
     cabecera = models.TextField()
 
     def __str__(self):
-        return f'{self.entidad.entidad:02}-{self.distrito}'
+        return f'{self.entidad.entidad:02}-{self.distrito:02}'
+
+    def get_distrito(self):
+        return self.distrito
 
 
 class Municipio(models.Model):
-    entidad = models.PositiveSmallIntegerField(choices=ENTIDAD)
+    entidad = models.ForeignKey(Entidad, on_delete=models.CASCADE)
     municipio = models.PositiveSmallIntegerField()
     nombre = models.TextField()
 
     class Meta:
         verbose_name_plural = 'Municipios'
+        ordering = ['municipio', ]
 
     def __str__(self):
         return f'{self.municipio:03} {self.nombre}'
 
 
 class Seccion(models.Model):
-    distrito = models.PositiveSmallIntegerField(choices=DISTRITO)
+    distrito = models.ForeignKey(Distrito, on_delete=models.CASCADE)
     municipio = models.ForeignKey(Municipio, on_delete=models.CASCADE)
     seccion = models.PositiveSmallIntegerField()
     tipo = models.PositiveSmallIntegerField(choices=CAT_TIPO)
@@ -71,10 +63,11 @@ class Seccion(models.Model):
         verbose_name_plural = 'Secciones'
 
     def __str__(self):
-        return f'{self.distrito:02} {self.municipio.municipio:03} {self.seccion:04}'
+        return f'{self.distrito.distrito:02} {self.municipio.municipio:03} {self.seccion:04}'
 
 
 class Localidad(models.Model):
+    municipio = models.ForeignKey(Municipio, on_delete=models.CASCADE)
     localidad = models.PositiveSmallIntegerField()
     nombre = models.TextField(max_length=150)
     tipo = models.PositiveSmallIntegerField(choices=CAT_TIPO)
@@ -83,9 +76,10 @@ class Localidad(models.Model):
     class Meta:
         verbose_name = 'Localidad'
         verbose_name_plural = 'Localidades'
+        ordering = ['municipio__municipio', 'localidad', ]
 
     def __str__(self):
-        return f'{self.localidad:04} {self.nombre}'
+        return f'{self.municipio.municipio:03} {self.localidad:04} {self.nombre}'
 
 
 class Pusinex(models.Model):
@@ -99,12 +93,34 @@ class Pusinex(models.Model):
         get_latest_by = 'f_actual'
 
     def __str__(self):
-        return f'{self.seccion.seccion:04} {self.localidad.localidad:04} {self.localidad.nombre} ({self.f_actual})'
+        return f'{self.seccion.seccion:04} {self.localidad.localidad:04} {self.localidad.nombre}'
+
+
+# Función para subir archivos
+def pusinex_file(p, file):
+    import os.path
+    ext = file.split('.')[-1]
+    orig = 'pusinex'
+    distrito = p.pusinex.seccion.distrito.distrito
+    seccion = p.pusinex.seccion.seccion
+    localidad = p.pusinex.localidad.localidad
+    nombre = f'29{distrito:02}{seccion:04}-{localidad:04}_rev{p.f_act:%Y%m%d}.{ext}'
+    ruta = os.path.join(orig, f'{distrito:02}', nombre)
+    return ruta
 
 
 class Revision(models.Model):
     pusinex = models.ForeignKey(Pusinex, on_delete=models.CASCADE)
     f_act = models.DateField()
     hojas = models.PositiveSmallIntegerField()
-    observaciones = models.TextField()
-    archivo = models.FileField()
+    observaciones = models.TextField(blank=True, null=True)
+    archivo = models.FileField(upload_to=pusinex_file, blank=True, null=True)
+
+    def __str__(self):
+        d = self.pusinex.seccion.distrito.distrito
+        s = self.pusinex.seccion.seccion
+        loc = self.pusinex.localidad.localidad
+        return f'29{d:02}{s:04}-{loc:04}_rev{self.f_act:"%Y%m%d"}'
+
+    class Meta:
+        get_latest_by = "f_act"
