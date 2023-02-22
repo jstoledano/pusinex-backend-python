@@ -41,7 +41,8 @@ class PUSINEXForm(forms.Form):
             form = PUSINEXForm(self.request.POST)
             if form.is_valid():
                 revision = Revision.objects.create(pusinex=pusinex, **form.cleaned_data)
-                return redirect('control:pusinex_detail', pk=revision.pk)
+                revision.save()
+                return redirect('control:localidad', pk=revision.pusinex.localidad.id)
         else:
             form = PUSINEXForm()
         return render(self.request, 'control/pusinex_form.html', {'form': form})
