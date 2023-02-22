@@ -1,7 +1,6 @@
 from dal import autocomplete
 from django.db.models import Q
-from django.utils.datastructures import MultiValueDict
-from django.views.generic import CreateView, TemplateView, DetailView
+from django.views.generic import FormView, TemplateView, DetailView, CreateView
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters.views import FilterView
 from rest_framework import viewsets
@@ -9,7 +8,7 @@ from rest_framework import viewsets
 from control import filters
 from control.filters import LocalidadFilter
 from control.forms import PUSINEXForm
-from control.models import Localidad, Municipio, Pusinex, Seccion
+from control.models import Localidad, Municipio, Pusinex, Seccion, Revision
 from control.serializers import (LocalidadSerializer, MunicipioSerializer,
                                  PusinexSerializer, SeccionSerializer)
 
@@ -46,9 +45,10 @@ class LocalidadDetail(DetailView):
     context_object_name = 'localidad'
 
 
-class CreatePUSINEX(CreateView):
-    model = Pusinex
+class CreatePUSINEX(FormView):
+    template_name = 'control/pusinex_form.html'
     form_class = PUSINEXForm
+    success_url = '/'
 
 
 class Administration(TemplateView):
@@ -63,16 +63,18 @@ class MunicipioViewSet(viewsets.ModelViewSet):
 class SeccionViewSet(viewsets.ModelViewSet):
     queryset = Seccion.objects.all()
     serializer_class = SeccionSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['municipio', 'seccion']
 
 
 class LocalidadViewSet(viewsets.ModelViewSet):
     queryset = Localidad.objects.all()
     serializer_class = LocalidadSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_class = filters.LocalidadFilter
+    filterset_fields = ['municipio', ]
 
 
 class PusinexViewSet(viewsets.ModelViewSet):
     queryset = Pusinex.objects.all()
     serializer_class = PusinexSerializer
-    filterset_fields = ['localidad__nombre', ]
+    filterset_fields = ['id', 'seccion__seccion', 'localidad__localidad', ]

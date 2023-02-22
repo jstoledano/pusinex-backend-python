@@ -120,7 +120,7 @@ class Revision(models.Model):
         d = self.pusinex.seccion.distrito.distrito
         s = self.pusinex.seccion.seccion
         loc = self.pusinex.localidad.localidad
-        return f'29{d:02}{s:04}-{loc:04}_rev{self.f_act:"%Y%m%d"}'
+        return f'29{d:02}{s:04}-{loc:04}_rev{self.f_act:%Y%m%d}'
 
     class Meta:
         get_latest_by = "f_act"

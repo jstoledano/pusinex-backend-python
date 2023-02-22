@@ -3,7 +3,9 @@ from control.models import (
     Municipio,
     Seccion,
     Localidad,
-    Pusinex)
+    Pusinex,
+    Revision
+)
 
 
 class MunicipioSerializer(serializers.ModelSerializer):
@@ -30,9 +32,21 @@ class LocalidadSerializer(serializers.ModelSerializer):
         depth = 2
 
 
+class RevisionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Revision
+        fields = '__all__'
+
+
 class PusinexSerializer(serializers.ModelSerializer):
+    rev = serializers.SerializerMethodField()
 
     class Meta:
         model = Pusinex
         fields = '__all__'
         depth = 3
+
+    def get_rev(self, obj):
+        revision = Revision.objects.filter(pusinex=obj).last()
+        serializer = RevisionSerializer(revision, many=False)
+        return serializer.data

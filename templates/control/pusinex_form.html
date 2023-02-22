@@ -11,8 +11,113 @@
 {% block site_title %}Agregar PUSINEX{% endblock %}
 
 {% block content %}
-  <form method="post">{% csrf_token %}
-    {{ form.as_p  }}
-    <input type="submit" value="Save">
-  </form>
+<form class="form" action="{% url 'create' %}" method="POST">{% csrf_token %}
+  <div class="row">
+    <div class="col mb-2">
+      <label for="mpios">Municipio</label>
+      <select name="mpios" id="mpios" class="form-select" aria-label="Selección de municipio">
+        <option value="" text />
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4 mb-4">
+      <label for="secciones">Sección</label>
+      <select name="secciones" required id="id_seccion" class="form-select"></select>
+    </div>
+    <div class="col-8 mb-4">
+      <label for="localidades">Localidades</label>
+      <select name="localidades" required id="id_localidad" class="form-select"></select>
+    </div>
+  </div>
+  <hr>
+  <div class="row mb-4">
+    <div class="col-6">
+      <label for="id_f_act">Fecha de Actualización</label>
+      <input type="date" name="f_act" required id="id_f_act" class="form-control" />
+    </div>
+    <div class="col-6">
+      <label for="id_hojas">Hojas</label>
+      <input type="number" name="hojas" required id="id_hojas" class="form-control" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mb-2">
+      <label for="id_archivo">Archivo</label>
+      <input type="file" name="archivo" required id="id_archivo" class="form-control" />
+    </div>
+  </div>
+  <div class="row mb-6">
+    <div class="col mb-6">
+      <label for="id_observaciones">Observaciones</label>
+      <textarea name="observaciones" id="id_observaciones" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="row mt-6">
+    <div class="col">
+      <button type="submit" class="btn btn-primary mt-6">Guardar</button>
+    </div>
+  </div>
+</form>
 {% endblock content %}
+
+{% block react %}
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+  <script type="text/javascript">
+    function pad (str, max) {
+        str = str.toString();
+        return str.length < max ? pad("0" + str, max) : str;
+    }
+
+  $.ajax({
+          type: "GET",
+          url: "/api/municipio/",
+          data: {
+              'csrfmiddlewaretoken': '{{csrf_token}}',
+          },
+          success: function (data) {
+              // $("#mpios").remove();
+              $.each(data, function(idx, m){
+                  $("#mpios").append($('<option />', {
+                      value: m.municipio,
+                      text: m.nombre
+                  }));
+              });
+          }
+      });
+
+  $("#mpios").on("change", () => {
+      $('#id_seccion').find('option').remove().end();
+      $("#id_localidad").find('option').remove().end();
+      const m = $("#mpios option:selected").val();
+      $.when(
+          $.ajax({
+              type: "GET",
+              url: `/api/seccion/?municipio=${m}`,
+              data: {'csrfmiddlewaretoken': '{{csrf_token}}'}
+          }),
+          $.ajax({
+              type: 'GET',
+              url: `/api/localidad/?municipio=${m}`,
+              data: {'csrfmiddlewaretoken': '{{csrf_token}}'}
+          })
+      ).then((secciones, localidades) => {
+          $.each(secciones[0], (idx, seccion) => {
+              const secc = seccion.seccion
+              $('#id_seccion').append($('<option />', {
+                  value: secc,
+                  text: pad(secc, 4)
+              }))
+          });
+          $.each(localidades[0], (idx, loc) => {
+             $('#id_localidad').append($('<option />', {
+                value: loc.localidad,
+                text: `${pad(loc.localidad, 4)} ${loc.nombre}`
+             }))
+          });
+      });
+  });
+
+
+    </script>
+{% endblock react %}

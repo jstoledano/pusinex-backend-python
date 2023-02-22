@@ -1,7 +1,7 @@
 import django_filters
 from django.db.models import Q
 from django.forms.widgets import Input
-from control.models import Localidad
+from control.models import Localidad, Seccion
 
 
 class LocalidadFilter(django_filters.FilterSet):
@@ -15,6 +15,7 @@ class LocalidadFilter(django_filters.FilterSet):
             'aria-label': '.form-control-lg example'
         })
     )
+
     class Meta:
         model = Localidad
         fields = ['q', ]
@@ -36,4 +37,9 @@ class LocalidadFilter(django_filters.FilterSet):
                 Q(municipio__nombre__icontains=value)
             )
         return queryset.filter(municipio__seccion__seccion=valor)
-        
+
+
+class SeccionFilter(django_filters.rest_framework.FilterSet):
+    class Meta:
+        model = Seccion
+        fields = ['municipio', 'seccion']
