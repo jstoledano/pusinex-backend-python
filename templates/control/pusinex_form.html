@@ -11,7 +11,29 @@
 {% block site_title %}Agregar PUSINEX{% endblock %}
 
 {% block content %}
-<form class="form" action="{% url 'create' %}" method="POST">{% csrf_token %}
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        {% if form.errors %}
+          {% for field in form %}
+            {% for error in field.errors %}
+              <div class="alert alert-danger">
+                <strong>{{field.name }}: </strong> {{ error|escape }}
+              </div>
+            {% endfor %}
+          {% endfor %}
+          {% for error in form.non_field_errors %}
+            <div class="alert alert-danger">
+              <strong>{{ error|escape }}</strong>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+<form class="form" action="{% url 'create' %}" method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
   <div class="row">
     <div class="col mb-2">
       <label for="mpios">Municipio</label>
@@ -23,11 +45,11 @@
   <div class="row">
     <div class="col-4 mb-4">
       <label for="secciones">Sección</label>
-      <select name="secciones" required id="id_seccion" class="form-select"></select>
+      <select name="seccion" required id="id_seccion" class="form-select"></select>
     </div>
     <div class="col-8 mb-4">
       <label for="localidades">Localidades</label>
-      <select name="localidades" required id="id_localidad" class="form-select"></select>
+      <select name="localidad" required id="id_localidad" class="form-select"></select>
     </div>
   </div>
   <hr>
@@ -54,7 +76,7 @@
     </div>
   </div>
   <div class="row mt-6">
-    <div class="col">
+    <div class="col mt-6">
       <button type="submit" class="btn btn-primary mt-6">Guardar</button>
     </div>
   </div>

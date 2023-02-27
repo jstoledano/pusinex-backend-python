@@ -3,6 +3,7 @@ from django.db.models import Q
 from django.views.generic import FormView, TemplateView, DetailView, CreateView
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters.views import FilterView
+from django.urls import reverse, reverse_lazy
 from rest_framework import viewsets
 
 from control import filters
@@ -11,6 +12,10 @@ from control.forms import PUSINEXForm
 from control.models import Localidad, Municipio, Pusinex, Seccion, Revision
 from control.serializers import (LocalidadSerializer, MunicipioSerializer,
                                  PusinexSerializer, SeccionSerializer)
+
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class Index(FilterView):
@@ -45,10 +50,32 @@ class LocalidadDetail(DetailView):
     context_object_name = 'localidad'
 
 
-class CreatePUSINEX(FormView):
+class CreatePUSINEX(CreateView):
     template_name = 'control/pusinex_form.html'
     form_class = PUSINEXForm
-    success_url = '/'
+    model = Revision
+
+    def form_invalid(self, form):
+        logger.error(form.errors)
+        return super(CreatePUSINEX, self).form_invalid(form)
+
+    def form_valid(self, form):
+        # Crea o busca un PUSINEX en la base de datos
+        seccion = Seccion.objects.get(seccion=form.cleaned_data['seccion'])
+        municipio = Municipio.objects.get(pk=seccion.municipio.id)
+        localidad = Localidad.objects.get(localidad=form.cleaned_data['localidad'], municipio=municipio)
+        try:
+            pusinex = Pusinex.objects.get(seccion=seccion, localidad=localidad)
+        except Pusinex.DoesNotExist:
+            pusinex = Pusinex.objects.create(seccion=seccion, localidad=localidad, activo=True)
+        # Crea una revisión de PUSINEX
+        revision = form.save(commit=False)
+        revision.pusinex = pusinex
+        revision.save()
+        return super(CreatePUSINEX, self).form_valid(form)
+
+    def get_success_url(self):
+        return reverse('localidad', kwargs={'pk': self.object.pusinex.localidad.id})
 
 
 class Administration(TemplateView):
