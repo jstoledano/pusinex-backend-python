@@ -4,6 +4,7 @@ from django.views.generic import FormView, TemplateView, DetailView, CreateView
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters.views import FilterView
 from django.urls import reverse, reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin
 from rest_framework import viewsets
 
 from control import filters
@@ -50,7 +51,7 @@ class LocalidadDetail(DetailView):
     context_object_name = 'localidad'
 
 
-class CreatePUSINEX(CreateView):
+class CreatePUSINEX(LoginRequiredMixin, CreateView):
     template_name = 'control/pusinex_form.html'
     form_class = PUSINEXForm
     model = Revision
