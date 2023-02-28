@@ -1,13 +1,13 @@
 from dal import autocomplete
 from django.db.models import Q
-from django.views.generic import FormView, TemplateView, DetailView, CreateView
+from django.views.generic import TemplateView, DetailView, CreateView
 from django_filters.rest_framework import DjangoFilterBackend
 from django_filters.views import FilterView
 from django.urls import reverse, reverse_lazy
+from django.contrib.auth import logout
 from django.contrib.auth.mixins import LoginRequiredMixin
 from rest_framework import viewsets
 
-from control import filters
 from control.filters import LocalidadFilter
 from control.forms import PUSINEXForm
 from control.models import Localidad, Municipio, Pusinex, Seccion, Revision
@@ -55,6 +55,8 @@ class CreatePUSINEX(LoginRequiredMixin, CreateView):
     template_name = 'control/pusinex_form.html'
     form_class = PUSINEXForm
     model = Revision
+    login_url = reverse_lazy('login')
+    redirect_field_name = 'next'
 
     def form_invalid(self, form):
         logger.error(form.errors)
@@ -71,6 +73,7 @@ class CreatePUSINEX(LoginRequiredMixin, CreateView):
             pusinex = Pusinex.objects.create(seccion=seccion, localidad=localidad, activo=True)
         # Crea una revisión de PUSINEX
         revision = form.save(commit=False)
+        revision.user = self.request.user
         revision.pusinex = pusinex
         revision.save()
         return super(CreatePUSINEX, self).form_valid(form)
@@ -106,3 +109,8 @@ class PusinexViewSet(viewsets.ModelViewSet):
     queryset = Pusinex.objects.all()
     serializer_class = PusinexSerializer
     filterset_fields = ['id', 'seccion__seccion', 'localidad__localidad', ]
+
+
+class LogoutView(TemplateView):
+    next_page = reverse_lazy('index')
+    redirect_field_name = 'next'

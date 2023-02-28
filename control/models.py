@@ -118,7 +118,7 @@ class Revision(models.Model):
     archivo = models.FileField(upload_to=pusinex_file, blank=True, null=True)
 
     # Trazabilidad
-    autor = models.ForeignKey(User, related_name='docs', editable=False, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, editable=False, on_delete=models.CASCADE)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 

@@ -23,5 +23,5 @@ logger = logging.getLogger(__name__)
 
 class PUSINEXForm(forms.ModelForm):
     class Meta:
-        exclude = ('pusinex', )
+        exclude = ('pusinex', 'user', )
         model = Revision

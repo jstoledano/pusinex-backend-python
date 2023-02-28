@@ -143,3 +143,5 @@ NOTEBOOK_ARGUMENTS = [
     '--ip', '0.0.0.0',
     '--port', '8888'
 ]
+
+LOGIN_REDIRECT_URL = '/'
