@@ -91,7 +91,7 @@ class Pusinex(models.Model):
     class Meta:
         verbose_name = 'PUSINEX'
         verbose_name_plural = 'PUSINEXs'
-        get_latest_by = 'f_actual'
+        ordering = ['seccion__distrito__distrito', 'seccion__seccion', 'localidad__localidad', ]
 
     def __str__(self):
         return f'{self.seccion.seccion:04} {self.localidad.localidad:04} {self.localidad.nombre}'
