@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 CAT_TIPO = (
     (1, 'URBANO CONCENTRADO'),
@@ -115,6 +116,11 @@ class Revision(models.Model):
     hojas = models.PositiveSmallIntegerField()
     observaciones = models.TextField(blank=True, null=True)
     archivo = models.FileField(upload_to=pusinex_file, blank=True, null=True)
+
+    # Trazabilidad
+    user = models.ForeignKey(User, editable=False, on_delete=models.CASCADE)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         d = self.pusinex.seccion.distrito.distrito

@@ -13,6 +13,14 @@
 {% block site_title %}PUSINEX en {{ localidad.nombre }}{% endblock %}
 
 {% block content %}
+  <div class="row">
+    <div class="col text-right">
+      <a class="btn btn-primary" href="{% url 'create' %}">
+        <i class="fa fa-plus-square" aria-hidden="true"></i>
+        Agregar PUSINEX</a>
+    </div>
+  </div>
+
   <table class="table table-striped table-hover">
   <thead>
       <tr>
