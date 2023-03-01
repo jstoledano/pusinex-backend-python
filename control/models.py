@@ -129,4 +129,4 @@ class Revision(models.Model):
         return f'29{d:02}{s:04}-{loc:04}_rev{self.f_act:%Y%m%d}'
 
     class Meta:
-        get_latest_by = "f_act"
+        get_latest_by = ["f_act", ]

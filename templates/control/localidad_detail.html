@@ -13,9 +13,9 @@
 {% block site_title %}PUSINEX en {{ localidad.nombre }}{% endblock %}
 
 {% block content %}
-  <div class="row">
+  <div class="row text-right">
     <div class="col text-right">
-      <a class="btn btn-primary" href="{% url 'create' %}">
+      <a class="btn btn-primary text-right" href="{% url 'create' %}">
         <i class="fa fa-plus-square" aria-hidden="true"></i>
         Agregar PUSINEX</a>
     </div>
@@ -36,8 +36,8 @@
       <tr>
         <td>{{ pusinex.seccion.distrito.distrito|stringformat:"02d" }}</td>
         <td>{{ pusinex.seccion.seccion|stringformat:"04d" }}</td>
-        <td>{{ pusinex.revision_set.last.f_act }}</td>
-        <td>{{ pusinex.revision_set.last.hojas }}</td>
+        <td>{{ pusinex.revision_set.latest.f_act }}</td>
+        <td>{{ pusinex.revision_set.latest.hojas }}</td>
         <td><a href="{{ pusinex.revision_set.last.archivo.url }}">Descargar</a></td>
       </tr>
     {% endfor %}
